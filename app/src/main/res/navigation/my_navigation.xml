@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="uz.muhammadziyo.sportquiz.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/fragmentFootball"
+        android:name="uz.muhammadziyo.sportquiz.FragmentFootball"
+        android:label="fragment_football"
+        tools:layout="@layout/fragment_football" />
+    <fragment
+        android:id="@+id/fragmentBasketball"
+        android:name="uz.muhammadziyo.sportquiz.FragmentBasketball"
+        android:label="fragment_basketball"
+        tools:layout="@layout/fragment_basketball" />
+</navigation>
